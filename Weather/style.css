@@ -37,6 +37,17 @@ nav {
 	padding-bottom: 55px;
 }
 
+label {
+	display: block;
+	text-align: left;
+	width: 408px;
+}
+
+svg {
+	margin-top: 28px;
+	margin-right: 15px;
+}
+
 .main-header {
 	font-weight: 300;
 	font-size: 28px;
@@ -91,4 +102,39 @@ nav {
 
 .change-city-btn:hover {
 	opacity: .8;
+}
+
+.find-city-box {
+	width: 320px;
+	height: 38px;
+	font-size: 18px;
+	padding-left: 15px;
+	margin-top: 10px;
+	border: none;
+	border-radius: 12px;
+}
+
+.show {
+	opacity: 1 !important;
+	font-weight: 700;
+	background: rgba(0, 0, 0, .3);
+	padding: 25px 40px 55px 40px;
+	border-radius: 16px;
+	box-shadow: 0 8px 35px rgba(0, 0, 0, 0.25);
+}
+
+.active-background {
+	background: rgba(255, 255, 255, .2);
+	padding: 7px 20px 7px 20px;
+	margin-top: -7px;
+	border-radius: 12px;
+}
+
+.find-city-container {
+	display: flex;
+	align-items: center;
+	opacity: 0;
+	margin: 35px auto 0;
+	width: 400px;
+	transition: .3s;
 }
